@@ -19,7 +19,7 @@ $ ./ipv4_network_calculator.py <ip> <mascara>
 
 Você pode usar especificando somente o IP com o prefixo e sem a mascara ou também pode especificar somente o IP sem o prefixo e mais a mascara 
 
-OBS: <> é obrigatório e [] é opicional
+OBS: <> é obrigatório e [] é opcional
 
 Ex:
 ```
