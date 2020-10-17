@@ -26,7 +26,7 @@ class Ipv4NetworkCalculator():
         # Vai converter o IP de decimal para binário
         self.convert_ip_to_bin()
         
-        # Converte a máscara para binário, e faz transforma na notificação CIDR
+        # Converte a máscara para binário, e faz transforma na notação CIDR
         if self.mascara:
             self.mascara_bin = self.convert_ip_to_bin(ip=self.mascara)
             self.prefixo_da_mascara()
